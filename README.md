@@ -1,5 +1,3 @@
 # EC602-Mini-Project
 
-Analyzing Sentiments of Twitter Feeds
-
-Jing Song U65712216
+## Fall 2019 Jing Song U65712216
