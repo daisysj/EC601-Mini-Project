@@ -1,9 +1,12 @@
 # Fall 2019 EC602-Mini-Project
 
-## Jing Song U65712216
+## Jing Song U65712216 &
 
-### what our app does...
-### architecture chart here
+### Our application "PoppyTweets" is designed for cinema owners and it is aimed to help them gain more profit and more popularity among customers. The application provides users with statistics, summary, sentiment analysis of customers' tweets, which we retrieve tweet feeds from Twitter API and pass the related tweets to Google Natural Language API for further analysis. We would also try our best to develop other functions of the application that could help our users take actions in response to the results directly. 
+
+### PoppyTweets' MVP:
+
+### Basic Architecture <img scr = "Source Link"/>
 
 # Contents:
 
