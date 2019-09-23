@@ -7,15 +7,17 @@
 ### PoppyTweets' MVP:
 ###      “I, as a cinema owner, should be able to see which movie receives the most good comments among all our currently showing movies,          and change our showing schedule accordingly.”
 
-### Basic Architecture: <img scr = "Source Link"/>
+### Basic Architecture:
+### Fetch tweets with specific tags
+### Pass Results to Google API
+### Get scores on sentiments
+### Get summaries of tweet posts
+### Reflect the results to users
+### Add addtional functions for users' ease
 
 # Contents:
 
  ## 1. [User Stories](https://github.com/daisysj/EC601-Mini-Project/blob/master/EC601%20Mini%20Project%201_%20User%20Stories.pdf)
  
- ## 2. [Architecture Chart]
+ ## 2. 
  
-2019.9.16 in_class notes
-make an ordered list, remember to put references
-wrap link in brackets, wrap url in (), start link with https
-figure <img src="Source link"/>, upload image
