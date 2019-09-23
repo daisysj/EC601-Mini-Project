@@ -11,7 +11,7 @@
 
 # Contents:
 
- ## 1. User Stories(url = 'https://github.com/daisysj/EC601-Mini-Project/blob/master/EC601%20Mini%20Project%201_%20User%20Stories.pdf')
+ ## 1. User Stories<url = 'https://github.com/daisysj/EC601-Mini-Project/blob/master/EC601%20Mini%20Project%201_%20User%20Stories.pdf'>
  
  ## 2. Architecture Chart
  
