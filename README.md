@@ -19,5 +19,5 @@
 
  ## 1. [User Stories](https://github.com/daisysj/EC601-Mini-Project/blob/master/EC601%20Mini%20Project%201_%20User%20Stories.pdf)
  
- ## 2. Architecture
+ ## 2. Architecture graph
  
