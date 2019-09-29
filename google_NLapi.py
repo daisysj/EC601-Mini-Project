@@ -10,14 +10,13 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "..."
 # Instantiates a client
 client = language.LanguageServiceClient()
 
-# The text to analyze
-text = u'Hello, world!'
-document = types.Document(
-    content=text,
-    type=enums.Document.Type.PLAIN_TEXT)
+def analyze_sentiment(t):
+    text = t
+    document = types.Document(
+        content=text,
+        type=enums.Document.Type.PLAIN_TEXT)
 
-# Detects the sentiment of the text
-sentiment = client.analyze_sentiment(document=document).document_sentiment
-
-print('Text: {}'.format(text))
-print('Sentiment: {}, {}'.format(sentiment.score, sentiment.magnitude))
+    # Detects the sentiment of the text
+    sentiment = client.analyze_sentiment(document=document).document_sentiment
+    sentis = [sentiment.score, sentiment.magnitude]
+    return sentis
