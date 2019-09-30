@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PoppyTweet</title>
+</head>
+<body>
+
+    <h1>PoppyTweets</h1></br>
+    <p>Type in key words to search</p>
+    {% from "_formhelpers.html" import render_field %}
+    <form method=post>
+        <dl>
+            <p>
+            {{ render_field(form.search) }}
+        </dl>
+        <p><input type=submit value=Search>
+    </form>
+    <a class="twitter-timeline" data-lang="en" data-width="500" data-height="1500" href="https://twitter.com/AMCTheatres?ref_src=twsrc%5Etfw">Tweets by AMCTheatres</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+</body>
+
+</html>

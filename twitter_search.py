@@ -36,7 +36,7 @@ def get_tweets(typein):
 
     print("The average sentiment score is: ", score, "\n")
     print("The average sentiment magnitude is: ", mag, "\n")
-    
+
     if (score <= -0.5):
         print("The sentiment is quite negative")
     elif ((score > -0.5) & (score < 0)):
