@@ -23,13 +23,21 @@
 
  ### 4. [Architecture graph 3](https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_3.png)
 
- ### 5. [twitter_search.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/twitter_search.py): handles Twitter API call
+ ### 5. [twitter_search.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/twitter_search.py): handles Twitter API call within the terminal
+ 
+ ### 6. [raw_twitter_search.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/raw_twitter_search.py): handles Twitter API with flask
+ 
+ ### 7. [google_NLapi.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/google_NLapi.py): handles Google Natural Language API call
 
- ### 6. [google_NLapi.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/google_NLapi.py): handles Google Natural Language API call
+ ### 8. [app.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/app.py): flask running main python function
+ 
+ ### 9. [search_form.py](https://github.com/daisysj/EC601-Mini-Project/blob/master/search_form.py): flask homepage search form
+ 
+ ### 10. [sample_twitter_apicall_results.txt](https://github.com/daisysj/EC601-Mini-Project/blob/master/sample_twitter_apicall_results.txt): a sample Twitter API call return before parsing
+ 
+ ### 11. [templates](https://github.com/daisysj/EC601-Mini-Project/tree/master/templates): flask html templates
 
- ### 7. [sample_twitter_apicall_results.txt](https://github.com/daisysj/EC601-Mini-Project/blob/master/sample_twitter_apicall_results.txt): a sample Twitter API call return before parsing
-
- ### 8. Testing Documentation<br/><br/>
+ ### 12. [Testing Documentation](https://github.com/daisysj/EC601-Mini-Project/blob/master/Testing%20Document.pdf)<br/><br/>
 
 
  ## How we made it:
