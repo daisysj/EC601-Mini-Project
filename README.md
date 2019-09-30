@@ -32,10 +32,14 @@
  ### 8. Testing Documentation
 
 
+
+
  ### How we made it:
  #### API Calls: Twitter and Google Natural Language APIs offer a quite detailed description of how to make use of their APIs and there are many tutorials online to help us make the API call successfully. The main idea was to understand what we should pass to the API and what kind of object we should expect to receive. What we should pass is usually the API keys, tokens and query strings. For these, we have to read carefully through the API documentation to find the exact format. What we receive from the API is usually an json object, and we could parse it easily by referencing them with specific indexes. 
  #### Twitter to Google: After we got the results from Twitter API, we need to pass those tweets texts to Google Natural Language API. The way to make it is to call the python function what deals with Google API from the python file that handles Twitter API, so that we could pass whatever we want as a text to Google Natural Language API.
  #### Returns: What users want probably would not be two numbers, one representing the average sentiment score and the other representing the sentiment magnitude, what they want is more diret. So we develop a score scale system for the users, so that they could directly tell how positive is the sentiment, "quite" or "relatively", very suitable for users who are not good at Math.
+ 
+ 
  
  
  ### Lesson Learned:
