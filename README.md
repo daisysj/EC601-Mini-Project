@@ -6,18 +6,22 @@
 
 ### PoppyTweets' MVP:
 ###      “I, as a cinema owner, should be able to tell which movie that is currently showing receives the most positive feedback from our customers.”
-### i.e. The user should be able to see the sentiment analysis of tweets on a specific movie that is shown at a specific movie theater
+#### i.e. The user should be able to see the sentiment analysis of tweets on a specific movie that is shown at a specific movie theater
 
+### Architecture:
+<img src="https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_1.png"/>
+<img src="https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_2.png"/>
+<img src="https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_3.png"/>
 
 # Contents:
 
  ## 1. [User Stories](https://github.com/daisysj/EC601-Mini-Project/blob/master/EC601%20Mini%20Project%201_%20User%20Stories.pdf)
  
- ## 2. Architecture graph 1
+ ## 2. [Architecture graph 1](https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_1.png)
 
- ## 3. Architecture graph 2
+ ## 3. [Architecture graph 2](https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_2.png)
 
- ## 4. Architecture graph 3
+ ## 4. [Architecture graph 3](https://github.com/daisysj/EC601-Mini-Project/blob/master/architecture_3.png)
 
  ## 5. twitter_search.py: handles Twitter API call
 
