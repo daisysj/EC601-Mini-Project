@@ -39,6 +39,9 @@
 
  ### 12. [Testing Documentation](https://github.com/daisysj/EC601-Mini-Project/blob/master/Testing%20Document.pdf)<br/><br/>
 
+ ## How to run the project:
+ ### Within Terminal: python twitter_search.py
+ ### Flask Local Host Web Browser: python -m flask run<br/><br/>
 
  ## How we made it:
  ### API Calls: Twitter and Google Natural Language APIs offer a quite detailed description of how to make use of their APIs and there are many tutorials online to help us make the API call successfully. The main idea was to understand what we should pass to the API and what kind of object we should expect to receive. What we should pass is usually the API keys, tokens and query strings. For these, we have to read carefully through the API documentation to find the exact format. What we receive from the API is usually an json object, and we could parse it easily by referencing them with specific indexes. 

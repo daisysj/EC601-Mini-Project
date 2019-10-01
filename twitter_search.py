@@ -14,6 +14,7 @@ def get_tweets(typein):
 
     score = 0
     mag = 0
+    count = 0
     typein_str = ""
     typein_list = typein.split()
 
@@ -23,16 +24,17 @@ def get_tweets(typein):
     auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)
-    results = api.search(q=typein_str, count=500)
+    results = api.search(q=typein_str, count=500, lang = "en", iso_language_code = "en")
 
     for j in results:
         print(j.user.screen_name, " : ", j.text, "\n")
         sentis = fun.analyze_sentiment(j.text)
         score = score + sentis[0]
         mag = mag + sentis[1]
+        count = count + 1
 
-    score = score / len(results)
-    mag = mag / len(results)
+    score = score / count
+    mag = mag / count
 
     print("The average sentiment score is: ", score, "\n")
     print("The average sentiment magnitude is: ", mag, "\n")
